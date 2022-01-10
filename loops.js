@@ -18,11 +18,14 @@ for  (let i=0; i<3; i++) {
 // loop...
 // klaar!
  // ==========================================
-const words = ["loop...", "loop...", "loop...", "loop...", "klaar!"]
-for (let i=0; i<words.length; i++) {
-    console.log(words[i]);
+for (let i=0; i<5; i++) {
+    if (i<4) {
+        console.log("loop...");
+    }
+    else {
+        console.log("klaar!")
+    }
 }
-
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.

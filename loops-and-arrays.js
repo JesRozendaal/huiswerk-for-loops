@@ -37,10 +37,9 @@ else {
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
-// console.log(numbers) geeft: [ 4, 12, 10, 87, 76 ];
+// console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
-// Volgens mij zit er een fout in de opdracht, 4 is een even getal en 5 oneven.
-// Dus de uitkomst zou [4, 8, 15, 87, 76] moeten zijn.
+
 
 // ==========================================
 // Opdracht 3
